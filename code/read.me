@@ -1,0 +1,18 @@
+How to run the code:
+Please run all the code one by one ,install idx2numpy first and put data in the input folder
+
+1.How to run mainalgorithm.ipynb:
+To train model: add your local path of input folder as the parameter in the KerasCNN() function
+To see prediction results: add your local path of input folder as the parameter in the makeprediction() function
+For example, if your input folder is in the path "D:/assignment/", add the path as the parameter.
+To load model: run function Loadmodel() and change filename to model name including your local path
+For example, if the saved model "mymodel.h5" is put in path "D:/assignment/", change filename to "D:/assignment/mymodel.h5"
+
+2.How to run otherwork.ipynb:
+To read data, add your local path of input folder as the parameter in the read_data() function.
+For example, if your input folder is in the path "D:/assignment/", add the path as the parameter.
+To tune algorithm, run functions with name including tune;
+To complete cross validation, run function model_cross_validation()
+To make prediction on test and see test results, run function model_test()
+To load model and see prediction accuracy results, run function load_model() and change filename to model name including your local path
+For example, if the saved model "ranforestmodel.sav" is put in path "D:/assignment/", change filename to "D:/assignment/ranforestmodel.sav"
